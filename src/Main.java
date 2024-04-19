@@ -8,7 +8,6 @@ public class Main {
         int month = 0;
         while (cashSaving <= totalSaving) {
             cashSaving = cashSaving + monthlySaving;
-            monthlySaving *= 1.01;
             month = month + 1;
             System.out.println("Месяц " + month + " Сумма накоплений равно " + cashSaving);
         }
@@ -16,12 +15,12 @@ public class Main {
         System.out.println("Задача 2");
         int i = 1;
         while (i <= 10) {
-            System.out.println(i + " ");
+            System.out.print(i + " ");
             i = i + 1;
         }
         System.out.println();
         for (i = 10; i >= 1; i--) {
-            System.out.println(i + " ");
+            System.out.print(i + " ");
         }
         System.out.println();
 // Задача 3
@@ -79,6 +78,7 @@ int cash=15000;
             if (year % 79 == 0) {
                 System.out.println(year);
             }
+
         }
 
 }
